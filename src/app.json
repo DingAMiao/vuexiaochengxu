@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/film/main",
+    "pages/music/main",
+    "pages/film-list/main",
+    "pages/filmd/main"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#8B0000",
+    "navigationBarTitleText": "小程序",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#F7F7F7"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#fff",
+    "backgroundColor": "#8B0000",
+    "position": "bottom",
+
+    "list": [
+      {
+        "pagePath": "pages/film/main",
+        "text": "影 悦",
+        "iconPath": "static/images/film.png",
+        "selectedIconPath": "static/images/film2.png"
+      },
+      {
+        "pagePath": "pages/music/main",
+        "text": "乐 悦",
+        "iconPath": "static/images/music2.png",
+        "selectedIconPath": "static/images/music.png"
+      }
+    ]
+
+  }
+}
